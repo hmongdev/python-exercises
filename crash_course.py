@@ -64,3 +64,54 @@ print(course.replace('for', '4')) #//Python 4 Beginners
 print('Python' in course) #//True, checking if 'Python' is in variable course; 'in' is an operator
 
 #/////////////////////////math///////////////////////////
+print(10 + 3) //13
+print(10 - 3) //7
+print(10 * 3) //30
+print(10 ** 3) //1000
+print(10 / 3) //3.3333333333333333
+print(10 // 3) //3; this one just returns the integer, not the decimal part of it
+print(10 % 3) //1
+
+#augmented assignment operator
+x = 10
+(x = x + 3) is the same as (x += 3)
+
+# /////////////////////////operator precedence///////////////////////////
+this is the same idea as PEMDAS, order of operations
+to change operator precedence, just use (10 + 3) * 2
+
+# /////////////////////////comparison operators///////////////////////////
+comparison operators
+>   greater than
+>=  greater than or equal to
+<   less than
+<=  less than or equal to
+==  equal to
+!=  not equal to
+
+# /////////////////////////logical operators///////////////////////////
+and (true only if both conditiosn are true)
+or  (true if at least one condition is true)
+not (inverse the boolean)
+
+# /////////////////////////if statements///////////////////////////
+temperature = 65
+if temperature > 90:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif temperature > 70: # (70, 90]
+    print("It's a nice day")
+elif temperature > 40: # (40, 70]
+    print("It's chilly")
+else:
+    print("It's freezing.")
+print("Have a great day.")
+
+# syntax:
+# 1. no curly braces, blocks are defined with indentation
+# 2. else if = elif 
+# 3. after a condition, use :#
+
+# /////////////////////////while loops///////////////////////////
+
+
